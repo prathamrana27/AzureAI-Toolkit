@@ -1,6 +1,6 @@
 #env
-AI_SERVICE_ENDPOINT=YOUR_AI_SERVICES_ENDPOINT #write the end point inside a string
-AI_SERVICE_KEY=YOUR_AI_SERVICES_KEY #write the end point inside a string
+AI_SERVICE_ENDPOINT="https://your-azure-endpoint.cognitiveservices.azure.com/" #make sure to write your own end point inside a string
+AI_SERVICE_KEY="******" #write the end point inside a string
 
 
 #rest-client 
