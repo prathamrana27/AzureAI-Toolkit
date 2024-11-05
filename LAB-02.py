@@ -1,3 +1,8 @@
+#env-file
+AI_SERVICE_ENDPOINT="https://xxxxxx.cognitiveservices.azure.com/"
+AI_SERVICE_KEY="xxxxxx"
+
+#image-analysis
 from dotenv import load_dotenv
 import os
 from PIL import Image, ImageDraw
