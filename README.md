@@ -45,7 +45,7 @@ Supports continuous input until "quit" is entered.
 Provides language name based on Text Analytics API results.
 
 
-Lab 2: Image Analysis and Background Removal
+Lab 2: Image Analysis and Background Removal .
 In Lab 2, you’ll analyze images to extract captions, tags, objects, and people using Azure’s Computer Vision API. This lab also includes a feature to remove image backgrounds.
 
 Instructions
