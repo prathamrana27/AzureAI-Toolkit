@@ -69,3 +69,62 @@ Output Files
 objects.jpg: Annotated image showing detected objects.
 people.jpg: Annotated image showing detected people.
 background.png: Image with background removed.
+
+
+Lab-03: Text Extraction and Analysis Using Azure AI Vision
+Overview
+This project, Lab-03, demonstrates the use of Azure's AI Vision services to read and analyze text from images. It includes a Python script that connects to Azure's Image Analysis API, allowing users to extract text and overlay detected text with bounding polygons on the original image.
+
+Prerequisites
+To run this project, you need:
+
+A valid Azure account with access to Azure AI Vision services.
+An Azure API endpoint and API key for the Image Analysis service.
+Python 3.x installed on your machine.
+Required Python packages:
+dotenv for loading environment variables
+os for file handling
+Pillow for image manipulation
+matplotlib for displaying images
+azure-ai-vision for the Azure AI Vision client and model definitions
+azure-core for Azure key credential management
+Setup
+Clone the repository (or download the project files).
+
+Install the dependencies by running:
+
+pip install -r requirements.txt
+
+Set up environment variables:
+
+Create a .env file in the root directory.
+Add your Azure API endpoint and API key to the .env file:
+makefile
+
+AI_SERVICE_ENDPOINT=your_endpoint_here
+AI_SERVICE_KEY=your_key_here
+Add Images:
+
+Place the images you want to analyze (e.g., Lincoln.jpg and Note.jpg) inside an images folder in the project directory.
+Usage
+Run the script by executing:
+
+python lab-03.py
+Select an option from the menu:
+
+Option 1: Use the Read API to extract text from Lincoln.jpg.
+Option 2: Extract handwriting from Note.jpg.
+Any other key to exit.
+View Output:
+
+The program displays detected text in the console and overlays bounding polygons on the text in the image.
+The annotated image is saved as text.jpg in the project directory.
+Code Structure
+main(): Initializes the Azure AI Vision client and provides a command-line menu for selecting analysis options.
+GetTextRead(image_file): Reads and analyzes the specified image file for text, then overlays detected text with bounding polygons on the image.
+Example
+After running the script, you should see console output with the extracted text, bounding polygons, and confidence scores. The text.jpg output file will display the annotated image.
+
+Troubleshooting
+Ensure the .env file is correctly configured with your Azure endpoint and key.
+Verify the required Python packages are installed.
