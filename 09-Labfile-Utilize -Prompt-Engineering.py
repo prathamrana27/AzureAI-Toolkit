@@ -1,6 +1,6 @@
 #Enviroment
 AZURE_OAI_ENDPOINT="https://xxxxxxx.openai.azure.com/"
-AZURE_OAI_KEY="EnNGi75kUo4SwKaBn0Vua4RtMaw9DqPYtSGe790w5ctL1RIlYumJJQQJ99AKACYeBjFXJ3wxxxxxxxx"
+AZURE_OAI_KEY="xxxxxxxxx"
 AZURE_OAI_DEPLOYMENT="gpt-35-xxxx-16k"
 #Utilize Prompt Engineering
 import os
