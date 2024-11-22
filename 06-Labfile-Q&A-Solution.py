@@ -1,8 +1,8 @@
 #Enviroment (.env) file for Create a Question Answering Solution
 AI_SERVICE_ENDPOINT="https://xxxxxxxx-ai.cognitiveservices.azure.com/"
-AI_SERVICE_KEY="1eSGkCCwtpPACilHfWlhuBd3zR9lkTfb9fT4xcClAD6P6MoY9qrvJQQJ99AKACYeBjFXJ3w3AAAaAxxxxxxx"
+AI_SERVICE_KEY="xxxxxxxxx"
 QA_PROJECT_NAME=LearnFAQ
-QA_DEPLOYMENT_NAME=debasish29ai
+QA_DEPLOYMENT_NAME=xxxxxxxxxx
 
 #code file for Create a Question Answering Solution
 from dotenv import load_dotenv
