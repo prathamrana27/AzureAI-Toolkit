@@ -1,5 +1,5 @@
 #Enviroment
-SPEECH_KEY="3F3QgOriTb74gpnolxW9Amv8jb4VcXicSTnGZNBqPDMEwgsXD8kgJQQJ99AKACYeBjFXJ3wxxxxxxxx"
+SPEECH_KEY="xxxxxxx"
 SPEECH_REGION="xxxxxx"
 #Recognize and synthesize speech
 from dotenv import load_dotenv
